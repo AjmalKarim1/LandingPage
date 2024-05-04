@@ -3,10 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="product.css">
     <title>product page</title>
 </head>
 <body>
+        <!-- navbar of the website -->
+    <div class="container">
+      <div class="row">
+        <div class="row_left-side">
+          <!-- language switcher  -->
+          <div class="pls-switcher">
+            <ul class="pls-dropdown">
+              <li class="has-dropdown">
+                <a href="#">English</a>
+                <ul class="sub-dropdown">
+                  <li><a href="#">Français</a></li>
+                  <li><a href="#">Deutsch</a></li>
+                  <li><a href="#">العربية</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- currency switcher -->
+          <div class="currency-switcher">
+            <ul class="pls-dropdown">
+              <li class="has-dropdown">
+                <a href="#">$ Dollar (US)</a>
+                <ul class="sub-dropdown">
+                  <li><a href="#">£ Pound (UK)</a></li>
+                  <li><a href="#">€ Euro (EUR)</a></li>
+                  <li><a href="#">¥ Yen (JPY)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <span class="pls-welcome-message">
+            Summer Sale 15% off! Shop Now!
+          </span>
+        </div>
+        <div class="row_right-side">
+          <ul id="menu-topbar-menu" class="menu">
+            <li id="menu-item-1" class="menu-item">
+              <a href="#">Store Location</a>
+            </li>
+            <li id="menu-item-2" class="menu-item">
+              <a href="#">Services</a>
+            </li>
+            <li id="menu-item-3" class="menu-item">
+              <a href="#">Subscribe</a>
+            </li>
+            <li id="menu-item-4" class="menu-item">
+              <a href="#">Gift Cards</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- main header  -->
+    <div class="main_header">
+      <div class="main_container">
+        <div class="location-search">
+          <span class="store-location">
+            <a class="location-icon-text" href="#" target="_blank">
+              <span class="store-location-icon"
+                ><i class="fa-solid fa-location-dot"></i
+              ></span>
+              <span>Find Store</span>
+            </a>
+          </span>
+
+          <div class="pls-header-mini-search">
+            <a class="search-icon-text" href="#">
+              <span class="header-search-icon"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></span>
+              <span class="icon-text">Search</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="header-logo">
+          <a href="#" rel="home">
+            <img class="pls-logo" src="assets/images/logo.svg" alt="Alukas" />
+          </a>
+        </div>
+        <div class="header_col">
+          <div class="header-myaccount">
+            <a class="customer-signinup" href="#">
+              <span class="icon-text">Sign In</span>
+            </a>
+          </div>
+
+          <div class="header-wishlist">
+            <a href="#">
+              <span class="wishlist-icon"
+                ><i class="fa-solid fa-heart"></i>
+                <span class="wishlist-count"></span>
+              </span>
+              <span class="icon-text">Wishlist</span>
+            </a>
+          </div>
+
+          <div class="header-cart cart-style-2">
+            <a href="#">
+              <div class="cart-icon"></div>
+              <span class="icon-text"
+                ><i class="fa-solid fa-cart-shopping"></i> Cart
+                <span class="cart-count">0</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- navbar  -->
+    <header class="navbar">
+      <div class="nav__container">
+        <div class="navbar__links">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Shop">shop</a></li>
+            <li><a href="#product">product</a></li>
+            <li><a href="#pages">pages</a></li>
+            <li><a href="#blog">blog</a></li>
+            <li><a href="#">buy theme!</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+              
     <section>
           <div class="container">
             <div class="parent__1">
@@ -128,17 +263,16 @@
                             <div class="tagged">Tags:<span class="posted_in">Gold </span>,<span class="posted_in"> Women</span></div>
                             
                           </div>
-                          <div class="div-2">
-                            <div class="div-3">Share:</div>
-                            <div class="div-4">
+                          <div class="conection_container">
+                           <div class="conection__1">
+                            Share:
                               <img
                                 loading="lazy"
                                 src="./img/Vector.png"
                                 class="img-2"
                               />
-                            </div>
-                          </div>
-                          <div class="div-5">
+                            
+                          
                             <img
                               loading="lazy"
                               src="./img/Link.png"

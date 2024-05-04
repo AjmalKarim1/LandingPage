@@ -6,6 +6,7 @@
 .container{
     display: flex;
     flex-direction: row;
+    gap: 2rem;
     
 }
 .parent__1{
@@ -24,6 +25,18 @@
   width: 100%;
   height: auto;
 }
+.pirce__text{
+    color: #7b7777;  
+}
+h4{
+    font-weight: lighter;
+}
+.Availability{
+    color: #388e42;
+}
+.parent__2{
+    width: 61%;
+}
 .child__2{
     display: flex;
     align-items: center;
@@ -34,10 +47,58 @@
     align-items: center;
 }
 #quantity{
-    width: 45px;
-    height: 26px;
+    width: 99px;
+    height: 41px;
+    outline: none;
+    cursor: text;
+}
+.price{
+    width: 80%;
 }
 .counter:active{
     border: none;
     color: rgb(255, 255, 255);
+}
+.input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance:none;
+margin: 0;
+}
+.butnnn{
+    width: 210px;
+    height: 47px;
+    background: #222222;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.butnnn2{
+    background-color: #e5e5e5;
+    width: 330px;
+    height: 46px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    color: #e5e5e5;
+}
+.butnnn2:hover{
+    transition: calc(0.4s);
+    color: #ffffff;
+    background: #000000;
+}
+.wishlist{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    background-color:#ffffff ;
+    gap: 8px;
+}
+.wisher{
+    display: flex;
+}
+.whishspan{
+    color: #dddcdc;
 }

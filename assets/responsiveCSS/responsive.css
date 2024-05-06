@@ -1,0 +1,48 @@
+@media (max-width: 992px) {
+  .navbar__links {
+    display: none;
+  }
+  .toggle-button {
+    display: block;
+  }
+  .row {
+    display: none;
+  }
+  .photos__container .photo6 {
+    display: none;
+  }
+  .location-search {
+    display: none;
+  }
+  .header-myaccount,
+  .header-wishlist {
+    display: none;
+  }
+  .main_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .hero__container {
+    display: block;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* CSS rules for phones */
+}
+
+/* Small devices (portrait tablets and large phones, 600px - 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* CSS rules for portrait tablets and large phones */
+}
+
+/* Medium devices (landscape tablets, 769px - 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS rules for landscape tablets */
+}
+
+/* Large devices (desktops, 1025px and up) */
+@media only screen and (min-width: 1025px) {
+  /* CSS rules for desktops */
+}

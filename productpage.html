@@ -25,7 +25,7 @@
           <div class="pls-switcher">
             <ul class="pls-dropdown">
               <li class="has-dropdown">
-                <a href="#">English</a>
+                <a href="#">English</a></li>
                 <ul class="sub-dropdown">
                   <li><a href="#">Français</a></li>
                   <li><a href="#">Deutsch</a></li>
@@ -73,22 +73,13 @@
     <div class="main_header">
       <div class="main_container">
         <div class="location-search">
-          <span class="store-location">
-            <a class="location-icon-text" href="#" target="_blank">
-              <span class="store-location-icon"
-                ><i class="fa-solid fa-location-dot"></i
-              ></span>
-              <span>Find Store</span>
-            </a>
-          </span>
+          <input for="Search" id="Search" name="Search" placeholder="Search products">
 
           <div class="pls-header-mini-search">
             <a class="search-icon-text" href="#">
               <span class="header-search-icon"
                 ><i class="fa-solid fa-magnifying-glass"></i
-              ></span>
-              <span class="icon-text">Search</span>
-            </a>
+              >
           </div>
         </div>
 
@@ -372,7 +363,7 @@
               <div class="card-body">
                 <h5 class="card-title">Rings</h5>
                 <p class="card-text">Love Both Engagement Ring</p>
-                <h4 class="product__price">$40.00</h4>
+                <h4 class="product__price">$40.00 <span class="cancel_text">$65.00</span></h4>
               </div>
             </div>
             <div class="card">
@@ -443,6 +434,18 @@
 
         </div>
     </section>
+    <div class="newsletter-container">
+      <div class="newsletter-content">
+        <div class="newsletter-title">Subscribe Newsletter</div>
+        <div class="newsletter-description">
+          Sign up to our Newsletter and get the discount code.
+        </div>
+        <div class="newsletter-form">
+          <div class="newsletter-email"><input type="email" id="email" name="email" placeholder="Email Address"></div>
+          <button class="newsletter-submit">Subscribe</button>
+        </div>
+      </div>
+    </div>
 
 </body>
 </html>

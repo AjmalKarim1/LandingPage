@@ -2,7 +2,7 @@
   .navbar__links {
     display: none;
   }
-  .toggle-button {
+  .toggle-nav-button {
     display: block;
   }
   .row {
@@ -22,8 +22,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: white;
+    border-bottom: 1px solid;
   }
-  .hero__container {
+  .dropdown-menu.open {
     display: block;
   }
 }

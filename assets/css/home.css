@@ -434,14 +434,10 @@ li {
   display: grid;
   grid-template-columns: repeat(4, minmax(247px, 1fr));
   box-sizing: border-box;
-
   gap: 15px;
-
   font-size: 11.4px;
-
-  justify-items: center;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 .frame-parent01 {
   padding: 0 20px;
@@ -714,7 +710,7 @@ li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .heading__parent ul li {
   text-transform: capitalize;
@@ -837,11 +833,11 @@ li {
 }
 
 .sorting-flow {
-  gap: 20px;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
+  display: flex;
 }
 
 .pattern-flow,
@@ -906,6 +902,7 @@ li {
 .sign-up-to {
   position: relative;
   line-height: 29px;
+  margin-top: 17px;
 }
 .workflow-controller {
   width: 516.8px;

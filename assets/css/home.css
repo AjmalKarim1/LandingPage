@@ -433,26 +433,25 @@ li {
   display: grid;
   grid-template-columns: repeat(4, minmax(247px, 1fr));
   box-sizing: border-box;
-  align-self: stretch;
-  gap: 31px;
-  text-align: left;
+
+  gap: 15px;
+
   font-size: 11.4px;
-  padding-bottom: 6.8px;
-  width: 100%;
+
   justify-items: center;
   align-items: center;
-  padding: 40px 20px;
 }
 .frame-parent01 {
   padding: 0 20px;
 }
 
 .circle-image {
-  margin: 0 !important;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
+  width: 325px;
+  height: 325px;
 }
 
 /* Badge Styles */

@@ -12,8 +12,12 @@
   <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="./product responsive/responsive.css">
     <title>product page</title>
 </head>
 <body>
@@ -72,23 +76,15 @@
     <!-- main header  -->
     <div class="main_header">
       <div class="main_container">
+        <div class="toggle-button"><i class="fa-solid fa-bars"></i></div>
         <div class="location-search">
-          <span class="store-location">
-            <a class="location-icon-text" href="#" target="_blank">
-              <span class="store-location-icon"
-                ><i class="fa-solid fa-location-dot"></i
-              ></span>
-              <span>Find Store</span>
-            </a>
-          </span>
+          <input for="Search" id="Search" name="Search" placeholder="Search products">
 
           <div class="pls-header-mini-search">
             <a class="search-icon-text" href="#">
               <span class="header-search-icon"
                 ><i class="fa-solid fa-magnifying-glass"></i
-              ></span>
-              <span class="icon-text">Search</span>
-            </a>
+              >
           </div>
         </div>
 
@@ -158,37 +154,37 @@
                   </div>
            </div>
            <div class="parent__2">
-               <h2>Blue Stripes & Stone Earrings</h2>
-               <div class="pricing">
-                 <div class="star"> 
-                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+               <div class="pricing items">
+                <h2>Blue Stripes & Stone Earrings</h2>
+                 <div class="star items"> 
+                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
                      </svg>
-                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
                      </svg>
-                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
                      </svg>
-                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
                      </svg>
-                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
                      </svg><h3>  (3 customer reviews)</h3>
                  </div>
-                   <div class="price">
+                   <div class="price items">
                     <h3>$249.00</h3>
-                    <p class="pirce__text">This regulator has a rolled diaphragm and high flow rate with reduced pressure drop.It has an excellent degree of condensation.</p>
+                    <p class="pirce__text items">This regulator has a rolled diaphragm and high flow rate with reduced pressure drop.It has an excellent degree of condensation.</p>
                     <h4>Availability: <span class="Availability">In Stock</span></h4>
                    </div>
-                   <div class="buttons">
+                   <div class="buttons items">
                     <div class="counter">
                      <input type="number" id="quantity" name="quantity" min="1" >
                      <button class="butnnn">Add to cart</button>
                     </div>
                     <br>
-                    <button class="butnnn2">BUY IT NOW</button>
+                    <button class="butnnn2 items">BUY IT NOW</button>
                    </div>
                    <br>
                    <br>  
@@ -339,7 +335,7 @@
             </div>
             <div class="second-container">
               <div class="second-3-container-image">
-                <img src="./img/extend-product-description-1.jpg" alt="">
+                <img src="./img/extend-product-description-3.jpg" alt="">
               </div>
               <div class="second-3-container-text">
                 <h3>BRAND</h3>
@@ -372,7 +368,7 @@
               <div class="card-body">
                 <h5 class="card-title">Rings</h5>
                 <p class="card-text">Love Both Engagement Ring</p>
-                <h4 class="product__price">$40.00</h4>
+                <h4 class="product__price">$40.00 <span class="cancel_text">$65.00</span></h4>
               </div>
             </div>
             <div class="card">
@@ -443,6 +439,18 @@
 
         </div>
     </section>
+    <div class="newsletter-container">
+      <div class="newsletter-content">
+        <div class="newsletter-title">Subscribe Newsletter</div>
+        <div class="newsletter-description">
+          Sign up to our Newsletter and get the discount code.
+        </div>
+        <div class="newsletter-form">
+          <div class="newsletter-email"><input type="email" id="email" name="email" placeholder="Email Address"></div>
+          <button class="newsletter-submit">Subscribe</button>
+        </div>
+      </div>
+    </div>
 
 </body>
 </html>

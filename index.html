@@ -16,8 +16,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Swiper CSS -->
 
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <!-- css style  -->
     <link rel="stylesheet" href="assets/css/home.css" />
+    <!-- responsive css  -->
     <link rel="stylesheet" href="assets/responsiveCSS/responsive.css" />
     <title>ALUKAS & CO</title>
   </head>
@@ -132,7 +136,7 @@
         </div>
       </div>
     </div>
-    <div class="dropdown-menu open">
+    <div class="dropdown-menu">
       <li><a href="#">home</a></li>
       <li><a href="#">shop</a></li>
       <li><a href="#">product</a></li>
@@ -176,25 +180,78 @@
       </div>
     </section>
     <!-- photos section  -->
-    <section class="photos">
-      <h2 class="photos-heading">Popular Categories</h2>
-      <div class="photos__container">
-        <div class="photo1"></div>
-        <div class="photo2"></div>
-        <div class="photo3"></div>
-        <div class="photo4"></div>
-        <div class="photo5"></div>
-        <div class="photo6"></div>
+
+    <div class="heading-wrap">
+      <span class="separator-left"></span>
+      <h2 class="heading-title">Popular Categories</h2>
+      <span class="separator-right"></span>
+    </div>
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="#">
+            <div class="category-image">
+              <img
+                src="assets/images/Cross-of-Light-Pendant-1-360x360 (1).jpg"
+                alt="Necklaces"
+              />
+            </div>
+            <div class="category-title">Necklaces</div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#">
+            <div class="category-image">
+              <img src="assets/images/Rings-360x360.jpg" alt="Rings" />
+            </div>
+            <div class="category-title">Rings</div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#">
+            <div class="category-image">
+              <img
+                src="assets/images/Rose-Gold-Bracelet-1-360x360 (1).jpg"
+                alt="Bracelets"
+              />
+            </div>
+            <div class="category-title">Bracelets</div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#">
+            <div class="category-image">
+              <img
+                src="assets/images/Sterling-Silver-Dangles-Earrings-1-360x360.jpg"
+                alt="Rings"
+              />
+            </div>
+            <div class="category-title">Rings</div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#">
+            <div class="category-image">
+              <img src="assets/images/Charm-Dangles-360x360.jpg" alt="Rings" />
+            </div>
+            <div class="category-title">Rings</div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#">
+            <div class="category-image">
+              <img src="assets/images/Gift-360x360.jpg" alt="Rings" />
+            </div>
+            <div class="category-title">Rings</div>
+          </a>
+        </div>
+
       </div>
-      <div class="names">
-        <span>necklaces</span>
-        <span>rings</span>
-        <span>bracelets</span>
-        <span>earnings</span>
-        <span>charm & dangles</span>
-        <span>gift ideas</span>
-      </div>
-    </section>
+      
+      <div class="swiper-pagination"></div>
+    
+    </div>
     <!-- cta button  -->
     <div class="elementor-widget-container">
       <div
@@ -229,106 +286,88 @@
         </ul>
       </div>
     </div>
-    <div class="frame-parent7">
-      <!-- Product 1 -->
-      <div class="container-parent">
-        <div class="container7">
-          <img
-            class="circle-image"
-            alt="Circle of Light Heart Earrings"
-            src="assets/images/Circle-of-Light-Heart-Earrings-2-325x325 (1).jpg"
-          />
-          <div class="background5">
-            <div class="off">hot</div>
-          </div>
-        </div>
-        <div class="frame-parent8">
-          <div class="link-earnings-wrapper">
-            <div class="link-earnings">Earnings</div>
-          </div>
-          <div class="heading-3-parent">
-            <div class="heading-34">
-              <div class="link-circle">Circle of Light Heart Earrings</div>
-            </div>
-            <div class="frame-wrapper">
-              <div class="parent">
-                <div class="div1">$129.00</div>
-                <div class="data-table">
-                  <div class="del">
-                    <div class="div2">$159.00</div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper swiper-wrapper-01">
+        <!-- product 1 -->
+        <div class="swiper-slide main-container-products">
+            <div class="container-parent">
+              <div class="container7">
+                <img
+                  class="circle-image"
+                  alt="Circle of Light Heart Earrings"
+                  src="assets/images/Circle-of-Light-Heart-Earrings-2-325x325 (1).jpg"
+                />
+                <div class="product-labels">Hot</div>
+              </div>
+              <div class="frame-parent8">
+                <div class="link-earnings">Earnings</div>
+                <div class="heading-34">
+                  <div class="link-circle">
+                    Circle of Light Heart Earrings
                   </div>
+                </div>
+                <div class="parent">
+                  <div class="div1">$129.00</div>
+
+                  <div class="div2">$159.00</div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Product 2 -->
-      <div class="container-parent">
-        <div class="container7">
-          <img
-            class="circle-image"
-            alt="Circle of Light Heart Earrings"
-            src="assets/images/Blue-Stripes-Stone-Earrings-1-325x325.jpg"
-          />
-          <div class="background6">
-            <div class="off1">20% Off</div>
-          </div>
-        </div>
-        <div class="frame-parent8">
-          <div class="link-earnings-wrapper">
-            <div class="link-earnings">Earnings</div>
-          </div>
-          <div class="heading-3-parent">
-            <div class="heading-34">
-              <div class="link-circle">blue stripes & stone earnings</div>
+        </div>  
+        <!-- product 2 -->
+        <div class="swiper-slide main-container-products">
+          <div class="container-parent">
+            <div class="container7">
+              <img
+                class="circle-image"
+                alt="Circle of Light Heart Earrings"
+                src="assets/images/Blue-Stripes-Stone-Earrings-1-325x325.jpg"
+              />
+              <div class="product-labels">20% off</div>
             </div>
-            <div class="frame-wrapper">
-              <div class="parent">
+            <div class="frame-parent8">
+              <div class="link-earnings">Earnings</div>
+              <div class="heading-34">
+                <div class="link-circle">
+                  Blue Stripes & Stone Earnings
+                </div>
+              </div>
+             
                 <div class="div1">$249.00</div>
-                <div class="data-table"></div>
-              </div>
+
+                
+             
             </div>
           </div>
-        </div>
-      </div>
-
-      <!-- Product 3 -->
-      <div class="container-parent">
-        <div class="container7">
-          <img
-            class="circle-image"
-            alt="Circle of Light Heart Earrings"
-            src="assets/images/Birds-of-Paradise-Pendant-2-325x325.jpg"
-          />
-          <div class="background7">
-            <div class="off2"></div>
+      </div> 
+      <!-- product 3 -->
+       <div class="swiper-slide main-container-products">
+        <div class="container-parent">
+          <div class="container7">
+            <img
+              class="circle-image"
+              alt="Circle of Light Heart Earrings"
+              src="assets/images/Birds-of-Paradise-Pendant-2-325x325 (1).jpg"
+            />
+            
           </div>
-        </div>
-        <div class="frame-parent8">
-          <div class="link-earnings-wrapper">
+          <div class="frame-parent8">
             <div class="link-earnings">rings</div>
-          </div>
-          <div class="heading-3-parent">
             <div class="heading-34">
-              <div class="link-circle">birds of paradise pendant</div>
-            </div>
-            <div class="frame-wrapper">
-              <div class="parent">
-                <div class="div1">$159.00</div>
-                <div class="data-table">
-                  <div class="del">
-                    <div class="div2">$199.00</div>
-                  </div>
-                </div>
+              <div class="link-circle">
+                Birds Of Paradise Pendant
               </div>
+            </div>
+            <div class="parent">
+              <div class="div1">$159.00</div>
+
+              <div class="div2">$199.00</div>
             </div>
           </div>
         </div>
-      </div>
-
-      <!-- Product 4 -->
+    </div> 
+    <!-- product 4  -->
+    <div class="swiper-slide main-container-products">
       <div class="container-parent">
         <div class="container7">
           <img
@@ -336,27 +375,56 @@
             alt="Circle of Light Heart Earrings"
             src="assets/images/Kalvesna-Diamond-Twig-Ring-1-325x325.jpg"
           />
-          <div class="background8">
-            <div class="off3">out of stock</div>
-          </div>
+          <div class="product-labels">out of stock</div>
         </div>
         <div class="frame-parent8">
-          <div class="link-earnings-wrapper">
-            <div class="link-earnings">bracelets</div>
-          </div>
-          <div class="heading-3-parent">
-            <div class="heading-34">
-              <div class="link-circle">kalvesna diamond twig ring</div>
-            </div>
-            <div class="frame-wrapper">
-              <div class="parent">
-                <div class="div1">$39.00--$59.00</div>
-                <div class="data-table"></div>
-              </div>
+          <div class="link-earnings">bracelets</div>
+          <div class="heading-34">
+            <div class="link-circle">
+              Kalvesna Diamond Twig Ring
             </div>
           </div>
+          <!-- <div class="parent"> -->
+            <div class="div1">$39.00 - $59.00</div>
+
+            <!-- <div class="div1">$59.00</div> -->
+          <!-- </div> -->
         </div>
       </div>
+  </div>  
+  <!-- product 5 -->
+  <div class="swiper-slide main-container-products">
+    <div class="container-parent">
+      <div class="container7">
+        <img
+          class="circle-image"
+          alt="Circle of Light Heart Earrings"
+          src="assets/images/Cross-Stripes-Stone-Bracelet-2-325x325 (1).jpg"
+        />
+        <div class="product-labels">Hot</div>
+      </div>
+      <div class="frame-parent8">
+        <div class="link-earnings">Earnings</div>
+        <div class="heading-34">
+          <div class="link-circle">
+            Circle of Light Heart Earrings
+          </div>
+        </div>
+        <div class="parent">
+          <div class="div1">$129.00</div>
+
+          <div class="div2">$159.00</div>
+        </div>
+      </div>
+    </div>
+</div>   
+        </div>
+      
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Navigation -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
     </div>
     <!-- banner  -->
     <section class="layout-network-wrapper">
@@ -475,7 +543,7 @@
         </div>
 
         <!-- Product 4 -->
-        <div class="container-parent">
+        <div class="container-parent  container-parent-4">
           <div class="container7">
             <img
               class="circle-image"
@@ -568,7 +636,7 @@
           </div>
         </div>
 
-        <!-- Product 3 -->
+        <!-- product 3 -->
         <div class="container-parent">
           <div class="container7">
             <img
@@ -603,7 +671,7 @@
         </div>
 
         <!-- Product 4 -->
-        <div class="container-parent">
+        <div class="container-parent  container-parent-4"">
           <div class="container7">
             <img
               class="circle-image"
@@ -661,7 +729,7 @@
           </div>
         </div>
 
-        <!-- Product 2 -->
+        <!-- product 2 -->
         <div class="container-parent">
           <div class="container7">
             <img
@@ -689,7 +757,6 @@
             </div>
           </div>
         </div>
-
         <!-- Product 3 -->
         <div class="container-parent">
           <div class="container7">
@@ -720,7 +787,7 @@
         </div>
 
         <!-- Product 4 -->
-        <div class="container-parent">
+        <div class="container-parent  container-parent-4">
           <div class="container7">
             <img
               class="circle-image"
@@ -1086,6 +1153,7 @@
       </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>

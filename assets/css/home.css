@@ -493,10 +493,7 @@ li {
 .container-parent {
   position: relative;
 }
-/* .container7 {
-  width: 315px;
-  height: 325px;
-} */
+
 .product-labels {
   position: absolute;
   line-height: 19px;
@@ -1360,4 +1357,135 @@ footer span {
   color: #555555;
   font-size: 16px;
   text-transform: capitalize;
+}
+
+/* responsive  */
+@media (max-width: 992px) {
+  .navbar__links {
+    display: none;
+  }
+  .toggle-nav-button {
+    display: block;
+  }
+  .row {
+    display: none;
+  }
+  .photos__container .photo6 {
+    display: none;
+  }
+  .location-search {
+    display: none;
+  }
+  .header-myaccount,
+  .header-wishlist {
+    display: none;
+  }
+  .main_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid;
+  }
+  .dropdown-menu.open {
+    display: block;
+  }
+  .heading-title {
+    font-size: 30px;
+  }
+  .heading-wrap {
+    margin-bottom: 0px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container7,
+  .container10 {
+    width: 100%;
+  }
+
+  .banner-content {
+    padding: 10px;
+  }
+
+  .parent,
+  .frame-wrapper {
+    flex-direction: column;
+  }
+
+  .div1,
+  .div2 {
+    font-size: 14px;
+  }
+
+  .link-earnings {
+    margin-bottom: 10px;
+  }
+}
+
+/* Small devices (tablets) */
+@media (max-width: 768px) {
+  .hero__left {
+    width: 100%;
+    text-align: center;
+  }
+  .hero__right img {
+    display: none;
+  }
+  .circle-image .background7 .frame8 {
+    display: none;
+  }
+  .container20 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .group-1-4 {
+    display: none;
+  }
+  .images-insta-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .frame-parent-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 20px;
+  }
+  .frame-parent7,
+  .frame-parent01 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .container-parent-4 {
+    display: none;
+  }
+}
+
+/* Medium devices (landscape tablets, large phones) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .container7,
+  .container10 {
+    max-width: 100%;
+  }
+
+  .banner-content,
+  .frame-parent8 {
+    padding: 20px;
+  }
+
+  .div1,
+  .div2 {
+    font-size: 18px;
+  }
+}
+
+/* Large devices (laptops/desktops) */
+@media only screen and (min-width: 1025px) {
 }

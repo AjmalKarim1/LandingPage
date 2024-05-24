@@ -74,9 +74,9 @@ li {
 }
 .row_left-side {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 35%;
+  margin-left: 20px;
+  gap: 20px;
+  font-size: 15px;
 }
 .menu li {
   padding-right: 23px;
@@ -200,7 +200,7 @@ li {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 0.5px;
-  padding: 15px;
+  padding: 15px 37.2px;
 }
 
 .dropbtn .fas {
@@ -217,6 +217,7 @@ li {
   min-width: 280px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  background: #bdbcc1;
 
   font-size: 15px;
 
@@ -368,9 +369,9 @@ li {
   width: 98%;
   margin: 0 auto;
 }
-.cart-container {
+/* .cart-container {
   height: 50vh;
-}
+} */
 
 .cart-alert span {
   margin-left: 5px;
@@ -523,4 +524,95 @@ footer a {
 }
 .footer-img {
   text-align: center;
+}
+.toggle-nav-button {
+  /* color: #fff; */
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+/* small screen footer  */
+.footer {
+  display: none;
+}
+
+/* responsive    */
+@media (max-width: 1023px) {
+  .top-header-container,
+  .search-box,
+  .user-icon,
+  .heart-icon,
+  .navbar2 {
+    display: none;
+  }
+  .toggle-nav-button {
+    display: block;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .follow-list {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+  footer {
+    display: none;
+  }
+  .footer-img {
+    display: none;
+  }
+  .subscribe-button {
+    padding: 16px 30px;
+  }
+  .form-container {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer {
+    display: block;
+
+    padding: 20px 50px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  .footer__menu {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    .footer-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-list__title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .footer-list li a {
+      /* color: white; */
+      text-decoration: none;
+      padding: 5px 0;
+      display: block;
+    }
+
+    .social-icon {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+  .footer-list--social {
+    display: inline;
+  }
 }
